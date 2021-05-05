@@ -1,0 +1,203 @@
+*{ margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}  
+.fondo{
+    margin:0;
+    padding: 0;
+    background-color: black;
+}   
+/* estilos header*/ 
+header{    
+    height: 700px;    
+    width: auto;   
+    display: flex;   
+    background-color:black; 
+    background-image: url(./fotos/baner.jpg);  
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+
+    display:flex;
+    justify-content:space-around;
+    align-content: space-between;
+    background-color: black;
+}
+/*estilos titulos*/
+
+.titulo{
+    font-size: 90px;
+    font-family:'Playfair Display', serif;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    }
+h1{
+    font-size: 90px;
+    font-family:'Playfair Display', serif;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 60px;
+    color:white;
+    font-family:'Playfair Display', serif;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    color:white;
+    font-family:'Playfair Display', serif;
+    text-align: center;    
+}
+
+p { font-family:'Playfair Display', serif;
+    font-size: 30px;
+    color: white;
+}
+
+.card-text{
+    color: black
+}
+.card-title{
+    color:black;
+}
+
+section{ 
+    display:flex;
+    justify-content: space-evenly;    
+    align-items: center;
+    background-color:rgb(63, 19, 105);
+    font-family:'Playfair Display', serif;
+    color:white;
+    height: 800px;
+    width: auto;
+    padding: 30px;
+   } 
+.sectionIndex{
+    display:flex;
+    justify-content: space-evenly;    
+    align-items: center;
+    background-color:rgb(63, 19, 105);
+    font-family:'Playfair Display', serif;
+    color: black;
+    height: 700px;
+    width: auto;
+    padding: 30px;
+}
+.sectionterapias{
+        
+    align-items: center;
+    background-color:rgb(63, 19, 105);
+    font-family:'Playfair Display', serif;
+    color:white;
+    height: 700px;
+    width:auto;
+}
+.sectionFrase{
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: oblique;
+    color:blanchedalmond;
+    text-align: center;
+}
+   img{
+       width: 100%;
+       height: 100%;
+} 
+.boton{
+    background-color:rgb(20, 20, 250);
+    color: white;
+ }
+   /* pagina terapias*/
+   /*pagina dinamicas grupales*/ 
+   /*pagina contacto*/
+
+   .formulario__contenido{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.formulario__item{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+  /*pagina nosotros*/
+#CV {
+    display: grid;
+    background-color:rgb(63, 19, 105);
+    color: white;
+    margin: 0;
+    font-family: 'Playfair Display', serif; 
+    text-decoration: none;
+}
+
+#grillaNosotros{  
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: "P1"
+                         "P2"
+                         "P3"
+                         "P4";   
+    justify-items: center;
+    align-items: center;
+    font-size:15px ;
+    background-color:rgb(63, 19, 105);
+    font-family:'Playfair Display', serif;
+    color:white;
+    height: 1000px;
+   }
+   #P1{ grid-area: P1;
+background-color: black;
+}
+   #P2{ grid-area: P2;}
+   #P3{ grid-area: P3;
+background-color: black;
+text-align: center;
+}
+   #P4{ grid-area: P4;
+text-decoration: none;
+text-align: center;
+}
+
+   /*estilofooter*/
+
+ footer {
+    display: flex;   
+    justify-content: space-evenly;  
+    font-family: 'Playfair Display', serif;
+    color:white;
+    height: 200px;
+    margin: 0;
+    padding: 50px;
+    font-size: 25px;
+    background-color: black;
+
+}
+
+.divFooter{
+    width:30%;
+}
+
+/* media querys*/
+
+
+    @media only screen and (max-width:480px){
+
+        footer{
+            display: block;
+        }
+       .divFooter {
+            width: 90%;
+        }
+        
+    }
+
